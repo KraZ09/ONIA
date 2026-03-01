@@ -1,7 +1,6 @@
 # https://platform.olimpiada-ai.ro/en/problems/184
 from sklearn.pipeline import Pipeline
 from sklearn.model_selection import GridSearchCV
-from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import FunctionTransformer
