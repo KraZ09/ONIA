@@ -9,7 +9,6 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import TargetEncoder
 from sklearn.preprocessing import LabelEncoder
 from sklearn.compose import ColumnTransformer
-from sklearn.feature_extraction.text import TfidfVectorizer
 
 train_raw = pd.read_csv('train.csv')
 test_raw = pd.read_csv('test.csv')
